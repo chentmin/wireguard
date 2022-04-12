@@ -15,7 +15,7 @@ Enable SSH on router, then use your preferred SSH Client e.g. Xshell6,MobaXterm,
 
 (TIP: Triple-click the install command below) to copy'n'paste into your router's SSH session:
     
-    curl --retry 3 "https://raw.githubusercontent.com/MartineauUK/wireguard/main/wg_manager.sh" --create-dirs -o "/jffs/addons/wireguard/wg_manager.sh" && chmod 755 "/jffs/addons/wireguard/wg_manager.sh" && /jffs/addons/wireguard/wg_manager.sh install
+    curl --retry 3 "https://raw.githubusercontent.com/chentmin/wireguard/main/wg_manager.sh" --create-dirs -o "/jffs/addons/wireguard/wg_manager.sh" && chmod 755 "/jffs/addons/wireguard/wg_manager.sh" && /jffs/addons/wireguard/wg_manager.sh install
     
 Example successful install.....
 
@@ -203,7 +203,7 @@ e.g.
 	[✔] Entware Architecture arch=arm
 
 
-	v4.12 WireGuard Session Manager (Change Log: https://github.com/MartineauUK/wireguard/commits/main/wg_manager.sh)
+	v4.12 WireGuard Session Manager (Change Log: https://github.com/chentmin/wireguard/commits/main/wg_manager.sh)
 	MD5=e78a51b9ef616c1d062038e5adada441 /jffs/addons/wireguard/wg_manager.sh
 
 	[✔] WireGuard Kernel module/User Space Tools included in Firmware (1.0.20210124)
